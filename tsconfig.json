@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": ["dom", "ES2021"],
+    "module": "es2020",
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "target": "es2019",
+    "sourceMap": true
+  },
+  "include": ["**/*.ts"]
+}
